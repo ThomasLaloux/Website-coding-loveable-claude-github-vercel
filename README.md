@@ -1,3 +1,3 @@
-# Welcome to your Lovable project
+# Pending work
 
-TODO: Document your project here
+Loveable's website code > improvement with realized work + key messages + Claude > Github + hosting by Vercel
