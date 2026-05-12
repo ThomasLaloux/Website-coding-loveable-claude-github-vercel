@@ -1,3 +1,8 @@
-Pending work - website construction
+Website construction - pending work, temporarily public
 
-Loveable's website code > improvement with realized work + key messages + Claude > Github + hosting by Vercel
+Building steps
+- Loveable website code + testing display: done
+- Transfer to Github + hosting with Vercel: pending
+- Prompt improvement using Claude: realized work + key messages + design
+- Preparation: Calendly (done), DNS & SSL, GDPR, T&Cs
+- Deployment in production
