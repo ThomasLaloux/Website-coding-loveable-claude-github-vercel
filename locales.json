@@ -1,0 +1,10 @@
+{
+  "en": {
+    "welcome": "Welcome to our website",
+    "description": "This is an English page."
+  },
+  "fr": {
+    "welcome": "Bienvenue sur notre site",
+    "description": "Ceci est une page en français."
+  }
+}
