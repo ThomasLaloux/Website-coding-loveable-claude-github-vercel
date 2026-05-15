@@ -24,7 +24,7 @@ const seo = {
     title:
       "Thomas P. Laloux — Automatisation IA, Systèmes Agentiques & Trading Systématique",
     description:
-      "Architecte en automatisation et développeur indépendant — automatisation de workflows, systèmes agentiques IA, modélisation prédictive et infrastructures de trading systématique pour startups, scale-ups et acteurs financiers.",
+      "Architecte en automatisation et développeur indépendant — automatisation de workflows, systèmes agentiques IA, modèles prédictifs et infrastructures de trading systématique pour startups, scale-ups et acteurs financiers.",
   },
 };
 
