@@ -1,10 +1,6 @@
 {
-  "cleanUrls": true,
   "rewrites": [
-    { 
-      "source": "/(.*)", 
-      "destination": "/index.html" 
-    }
+    { "source": "/((?!api|static|favicon.ico|assets|src|node_modules).*)", "destination": "/index.html" }
   ],
   "regions": ["fra1"]
 }
