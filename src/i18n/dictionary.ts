@@ -17,11 +17,11 @@ const en = {
     bookCall: "Book a call",
   },
   hero: {
-    h1Line1: "Pragmatic AI And Workflow",
-    h1Line2: "Automation for Growing Companies",
-    sub: "I help startups, scale-ups and growing companies leverage workflow automation, AI systems and data — to reduce operational friction, improve decision-making, and support scalable growth.",
+    h1Line1: "AI And Workflow Automation",
+    h1Line2: "for Growing Companies",
+    sub: "I help startups, scale-ups and growing companies leverage workflow automation, AI systems and data, to reduce operational friction, improve decision-making, and support scalable growth.",
     support:
-      "Business-driven approach. From scoping to production. Available for freelance projects and contracts.",
+      "Business-driven and pragmatic approach. From scoping to production.\nAvailable for freelance projects and contracts.",
     primary: "Book a free discovery call",
     secondary: "See how I work ↓",
     photoAlt:
@@ -30,15 +30,15 @@ const en = {
   approach: {
     h2: "A business-driven approach",
     intro:
-      "Most automation and AI projects fail because they start from the technology, not the business. I work the other way around.",
+      "Most automations and AI projects fail because they start from the technology, not the business. I work the other way around.",
     pillars: [
       {
-        title: "Start from the business",
+        title: "Business context",
         body: "Every system I build starts from your context, objectives and constraints. Operational reality first, technology second.",
       },
       {
-        title: "Pragmatic execution",
-        body: "I prioritize usefulness and speed over unnecessary complexity. Working systems in real conditions — not prototypes, not over-engineered platforms.",
+        title: "Custom & pragmatic execution",
+        body: "I prioritize pragmatism over unnecessary complexity. Working systems in real conditions — not prototypes or over-engineered platforms.",
       },
       {
         title: "Autonomous delivery",
@@ -64,7 +64,7 @@ const en = {
           "Monitoring, alerting, and clean handover",
         ],
         timeline: "2–6 weeks",
-        bestFor: "Teams losing hours per week to repetitive operational tasks.",
+        bestFor: "Teams losing hours per week on repetitive operational tasks.",
       },
       {
         title: "Autonomous AI Agentic Systems",
@@ -75,7 +75,7 @@ const en = {
           "Retrieval-augmented generation over your internal data",
           "Local SLMs or cloud LLMs, chosen depending on hardware, cost, latency and confidentiality",
           "Human-in-the-loop validation steps for control and risk management",
-          "Docker-based deployment for portability, depending on the orchestration tool",
+          "Docker-based deployment for portability, depending on the case",
         ],
         timeline: "4–10 weeks",
         bestFor:
@@ -99,14 +99,14 @@ const en = {
         subtitle:
           "From fast strategy backtesting to live, production-grade development and execution.",
         items: [
-          "Strategy development, e.g. mid-frequency market structure, order flow, regime switching",
+          "Strategy development, e.g. MFT market structure, order flow, regime switching",
           "Walk-forward backtesting frameworks with realistic cost/slippage modeling",
           "Risk management and execution monitoring",
           "Live deployment — Python-based, production-grade",
         ],
         timeline: "4–12 weeks",
         bestFor:
-          "Proprietary/hedge funds desks building, upgrading or formalizing systematic capabilities.",
+          "Proprietary/hedge funds desks building or upgrading systematic capabilities.",
       },
     ],
   },
@@ -173,7 +173,7 @@ const en = {
     items: [
       {
         title: "AI-powered document workflow automation",
-        badge: "First release",
+        badge: "DELIVERED",
         what: "Multi-agent system automating repetitive data-based operational tasks while preserving data confidentiality.",
         scope:
           "n8n used as orchestration layer and Python as multi-agent layer; RAG over local historical data; human-in-the-loop validation steps allowing the client to keep control.",
@@ -200,7 +200,7 @@ const en = {
       },
       {
         title: "Predictive modeling & data analysis",
-        badge: "Internal",
+        badge: "DELIVERED",
         what: "Product quality prediction and decision-support analytics.",
         scope:
           "Data quality assessment, exploratory data analysis, predictive model.",
@@ -230,8 +230,8 @@ const en = {
     h2: "About",
     paragraphs: [
       "Thomas P. Laloux is an independent automation architect focused on workflow automation, AI systems and data, with a business-first, pragmatic approach to delivery.",
-      "With a strong analytical foundation in physics, statistics and forecasting, he began his career at ENGIE (CAC40) as an energy consumption forecaster, where he also contributed to operational process optimization. He then moved into an internal consulting and business analyst role at group level, working across operational process optimization, cost and revenue analysis, business planning, and predictive modeling.",
-      "He later transitioned into systematic trading as a quantitative developer, designing and deploying mid-frequency strategies (market structure, order flow, regime switching), advanced backtesting frameworks, and live execution infrastructure built to the production standards expected by hedge funds and proprietary trading firms.",
+      "With a strong analytical foundation in statistics and forecasting, he began his career at ENGIE (CAC40) as an energy consumption forecaster, where he also contributed to operational process optimization. He then moved into internal consulting roles at group level, as market and business analyst, working across long-term market projections, green mobility assessment models, business planning, and predictive modeling.",
+      "He later transitioned into systematic trading as a quantitative developer, designing and deploying mid-frequency strategies, advanced backtesting frameworks, and live execution infrastructure built to the production standards expected by hedge funds and proprietary trading firms.",
       "His current focus is AI-powered workflow automation and agentic systems — combining multi-agent architectures, RAG, local and cloud LLMs, and human-in-the-loop control to solve operational and scaling challenges faced by startups, scale-ups, and financial firms.",
       "Across his project portfolio, Thomas has consistently demonstrated the ability to autonomously architect, build and deliver end-to-end systems, applying an AI-native approach to execution, iteration and problem solving.",
     ],
@@ -241,7 +241,7 @@ const en = {
     items: [
       { label: "Location", value: "Belgium — remote across Europe" },
       { label: "Availability", value: "Accepting new projects" },
-      { label: "Typical engagement", value: "2–12 weeks" },
+      { label: "Typical engagement", value: "3–12 weeks" },
       {
         label: "Pricing",
         value: "Tailored to project scope, complexity and timeline",
@@ -431,7 +431,7 @@ const fr: Dict = {
     items: [
       {
         title: "Automatisation de workflow documentaire propulsée par IA",
-        badge: "Première version",
+        badge: "LIVRÉ",
         what: "Système multi-agents automatisant des tâches opérationnelles répétitives basées sur la donnée, tout en préservant la confidentialité.",
         scope:
           "n8n comme couche d'orchestration et Python comme couche multi-agents ; RAG sur les données historiques locales ; étapes de validation human-in-the-loop permettant au client de garder le contrôle.",
@@ -458,7 +458,7 @@ const fr: Dict = {
       },
       {
         title: "Modélisation prédictive et analyse de données",
-        badge: "Interne",
+        badge: "LIVRÉ",
         what: "Prédiction de qualité produit et analytics d'aide à la décision.",
         scope:
           "Évaluation de la qualité des données, analyse exploratoire, modèle prédictif.",
@@ -499,7 +499,7 @@ const fr: Dict = {
     items: [
       { label: "Localisation", value: "Belgique — remote dans toute l'Europe" },
       { label: "Disponibilité", value: "Nouveaux projets acceptés" },
-      { label: "Engagement typique", value: "2 à 12 semaines" },
+      { label: "Engagement typique", value: "3 à 12 semaines" },
       {
         label: "Tarification",
         value: "Sur mesure selon le périmètre, la complexité et le délai",
