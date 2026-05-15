@@ -12,7 +12,7 @@ CookieConsent.run({
         analytics: { enabled: false }
     },
     language: {
-        default: 'en',
+        default: 'auto',
         translations: {
             en: {
                 consentModal: {
@@ -31,6 +31,25 @@ CookieConsent.run({
                         { title: 'Strictly Necessary', description: 'Essential for the site to function.', category: 'necessary' },
                         { title: 'Analytics Cookies', description: 'Helps us analyze user behavior.', category: 'analytics' }
                     ]
+                },
+            fr: {
+                  consentModal: {
+                    title: 'Nous utilisons des cookies',
+                    description: 'Nous utilisons des cookies pour analyser le trafic et améliorer les performances.',
+                    acceptAllBtn: 'Tout accepter',
+                    acceptNecessaryBtn: 'Tout refuser',
+                    showPreferencesBtn: 'Gérer les préférences'
+                  },
+                  preferencesModal: {
+                    title: 'Préférences cookies',
+                    acceptAllBtn: 'Tout accepter',
+                    acceptNecessaryBtn: 'Tout refuser',
+                    savePreferencesBtn: 'Enregistrer',
+                    sections: [
+                      { title: 'Strictement nécessaires', description: 'Essentiels au fonctionnement du site.', category: 'necessary' },
+                      { title: 'Cookies analytiques', description: 'Nous aident à analyser le comportement utilisateur.', category: 'analytics' }
+                    ]
+                  }
                 }
             }
         }
