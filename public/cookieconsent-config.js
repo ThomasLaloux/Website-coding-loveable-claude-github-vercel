@@ -1,5 +1,5 @@
-// Wait for Vite app and library to load completely
-window.addEventListener('load', () => {
+// FIXED: Changed 'load' to 'DOMContentLoaded' for instant local execution
+window.addEventListener('DOMContentLoaded', () => {
     if (typeof CookieConsent !== 'undefined') {
         CookieConsent.run({
             guiOptions: {
