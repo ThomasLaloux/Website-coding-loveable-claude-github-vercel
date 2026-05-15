@@ -33,8 +33,8 @@
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
 
-    <!-- COOKIE BANNER SCRIPTS: Fixed full script library path and removed type="module" -->
-    <script src="https://jsdelivr.net" defer></script>
-    <script src="/cookieconsent-config.js" defer></script>
+    <!-- FIXED: Sequential loading using standard module mechanics to remove browser runtime lag -->
+    <script src="https://jsdelivr.net"></script>
+    <script type="module" src="/cookieconsent-config.js"></script>
   </body>
 </html>
