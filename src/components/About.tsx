@@ -3,7 +3,7 @@ import { useLang } from "@/i18n/LangContext";
 const About = () => {
   const { t } = useLang();
   return (
-    <section id="about" className="py-20 md:py-28 bg-card">
+    <section id="about" className="pt-10 pb-20 md:pt-12 md:pb-28 bg-card">
       <div className="container max-w-[1200px] mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-serif text-foreground mb-8">
           {t.about.h2}

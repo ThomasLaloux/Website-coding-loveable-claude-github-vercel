@@ -27,10 +27,10 @@ const Hero = () => {
               <br />
               <span className="text-hero-foreground/85">{t.hero.h1Line2}</span>
             </h1>
-            <p className="text-lg md:text-xl text-hero-foreground/75 max-w-xl leading-relaxed">
+            <p className="text-lg md:text-xl text-hero-foreground/75 max-w-3xl leading-relaxed">
               {t.hero.sub}
             </p>
-            <p className="text-sm text-hero-foreground/55 font-mono tracking-wide">
+            <p className="text-sm text-hero-foreground/55 font-mono tracking-wide whitespace-pre-line">
               {t.hero.support}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-2">

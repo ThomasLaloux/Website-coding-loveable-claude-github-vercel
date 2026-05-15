@@ -431,7 +431,7 @@ const fr: Dict = {
     items: [
       {
         title: "Automatisation de workflow documentaire propulsée par IA",
-        badge: "Première version",
+        badge: "LIVRÉ",
         what: "Système multi-agents automatisant des tâches opérationnelles répétitives basées sur la donnée, tout en préservant la confidentialité.",
         scope:
           "n8n comme couche d'orchestration et Python comme couche multi-agents ; RAG sur les données historiques locales ; étapes de validation human-in-the-loop permettant au client de garder le contrôle.",
@@ -458,7 +458,7 @@ const fr: Dict = {
       },
       {
         title: "Modélisation prédictive et analyse de données",
-        badge: "Interne",
+        badge: "LIVRÉ",
         what: "Prédiction de qualité produit et analytics d'aide à la décision.",
         scope:
           "Évaluation de la qualité des données, analyse exploratoire, modèle prédictif.",
@@ -499,7 +499,7 @@ const fr: Dict = {
     items: [
       { label: "Localisation", value: "Belgique — remote dans toute l'Europe" },
       { label: "Disponibilité", value: "Nouveaux projets acceptés" },
-      { label: "Engagement typique", value: "2 à 12 semaines" },
+      { label: "Engagement typique", value: "3 à 12 semaines" },
       {
         label: "Tarification",
         value: "Sur mesure selon le périmètre, la complexité et le délai",
