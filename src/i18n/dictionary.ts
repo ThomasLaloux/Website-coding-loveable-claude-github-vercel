@@ -169,7 +169,7 @@ const en = {
   projects: {
     h2: "Recent work",
     intro:
-      "A selection of recent projects across automation, AI, trading and analytics.",
+      "A selection of recent projects across automation, AI, predictive modeling & data analytics.",
     items: [
       {
         title: "AI-powered document workflow automation",
@@ -427,7 +427,7 @@ const fr: Dict = {
   projects: {
     h2: "Réalisations récentes",
     intro:
-      "Une sélection de projets récents en automatisation, IA, trading et analytics.",
+      "Une sélection de projets récents en automatisation, IA, modélisation prédictive & analyse de données.",
     items: [
       {
         title: "Automatisation de workflow documentaire propulsée par IA",
