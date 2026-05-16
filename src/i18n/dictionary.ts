@@ -11,8 +11,8 @@ const en = {
   nav: {
     approach: "Approach",
     services: "Services",
-    work: "Recent work",
     about: "About",
+    process: "How I work",
     contact: "Contact",
     bookCall: "Book a call",
   },
@@ -52,20 +52,9 @@ const en = {
       "Four service areas, from simple automations to full agentic systems and quantitative infrastructure.",
     timelineLabel: "Typical timeline",
     bestForLabel: "Best for",
+    recentProjectLabel: "Recent project",
+    recentProjectsLabel: "Recent projects",
     cards: [
-      {
-        title: "Workflow Automation",
-        subtitle:
-          "Replace manual operational processes with reliable, scalable workflows not requiring IA.",
-        items: [
-          "Process mapping and bottleneck identification",
-          "Orchestration, e.g. through N8n or custom Python",
-          "Integration with existing tools, APIs and data sources",
-          "Monitoring, alerting, and clean handover",
-        ],
-        timeline: "2–6 weeks",
-        bestFor: "Teams losing hours per week on repetitive operational tasks.",
-      },
       {
         title: "Autonomous AI Agentic Systems",
         subtitle:
@@ -80,19 +69,49 @@ const en = {
         timeline: "4–10 weeks",
         bestFor:
           "Companies wanting to automate complex, judgement-heavy work while keeping a human safety net.",
+        projects: [
+          {
+            title: "AI-powered document workflow automation",
+            badge: "DELIVERED",
+            what: "Multi-agent system automating repetitive text-based operational tasks.",
+            scope:
+              "N8n (orchestration layer) and Python (multi-agent layer); RAG over local historical data; human-in-the-loop validation steps allowing the client to keep control.",
+            stack: "Python, N8n, Docker, Postgres / Qdrant, local or cloud LLMs.",
+            outcome:
+              "20–40h a month saved on operations, with full traceability and preserved confidentiality.",
+            whatLabel: "What",
+            scopeLabel: "Architecture",
+            outcomeLabel: "Outcome",
+          },
+        ],
       },
       {
-        title: "Predictive Modeling & Data Analysis",
-        subtitle: "Predictive systems and decision-support analytics.",
+        title: "Workflow Automation",
+        subtitle:
+          "Replace manual operational processes with reliable, scalable workflows not requiring IA.",
         items: [
-          "Predictive models and scenario analysis",
-          "Data analysis, data quality assessment and remediation",
-          "Business-related dashboards and visualizations",
-          "Models built to be understood, not just deployed",
+          "Process mapping and bottleneck identification",
+          "Orchestration, e.g. through N8n or custom Python",
+          "Integration with existing tools, APIs and data sources",
+          "Monitoring, alerting, and clean handover",
         ],
-        timeline: "2–8 weeks",
-        bestFor:
-          "Companies sitting on data but lacking the analytical layer to act on it.",
+        timeline: "2–6 weeks",
+        bestFor: "Teams losing hours per week on repetitive operational tasks.",
+        projects: [
+          {
+            title: "Automated equity & crypto screening engine",
+            badge: "Production deployment",
+            what: "Production-grade market screener for equity and crypto markets.",
+            scope:
+              "Automated data ingestion, multi-factor screening, signal generation, daily scheduled operation and reporting.",
+            stack: "Matlab, including standard libraries.",
+            outcome:
+              "Fully automated daily screening across a dozen international markets, replacing manual research workflow and capturing advanced custom criteria.",
+            whatLabel: "What",
+            scopeLabel: "Scope",
+            outcomeLabel: "Outcome",
+          },
+        ],
       },
       {
         title: "Systematic Trading Systems",
@@ -107,6 +126,50 @@ const en = {
         timeline: "4–12 weeks",
         bestFor:
           "Proprietary/hedge funds desks building or upgrading systematic capabilities.",
+        projects: [
+          {
+            title: "Production-grade systematic trading infrastructure",
+            badge: "Production deployment",
+            what: "End-to-end research, backtesting and live execution engine.",
+            scope:
+              "Regime-switching strategy logic, walk-forward validation, custom parameter optimization, modular architecture, live execution pipeline.",
+            stack:
+              "Python, modular components (clarity and scalability), production deployment.",
+            outcome:
+              "Architecture meeting small/mid hedge fund and prop trading firm standards; live execution on demo/live accounts.",
+            whatLabel: "What",
+            scopeLabel: "Scope",
+            outcomeLabel: "Outcome",
+          },
+        ],
+      },
+      {
+        title: "Predictive Modeling & Data Analysis",
+        subtitle: "Predictive systems and decision-support analytics.",
+        items: [
+          "Predictive models and scenario analysis",
+          "Data analysis, data quality assessment and remediation",
+          "Business-related dashboards and visualizations",
+          "Models built to be understood, not just deployed",
+        ],
+        timeline: "2–8 weeks",
+        bestFor:
+          "Companies sitting on data but lacking the analytical layer to act on it.",
+        projects: [
+          {
+            title: "Predictive modeling & data analysis",
+            badge: "DELIVERED",
+            what: "Product quality prediction and decision-support analytics.",
+            scope:
+              "Data quality assessment, exploratory data analysis, predictive model.",
+            stack: "Python — numpy, pandas, matplotlib, scikit-learn.",
+            outcome:
+              "1.3% MSE on test set, allowing accurate quality rating and classification.",
+            whatLabel: "What",
+            scopeLabel: "Scope",
+            outcomeLabel: "Outcome",
+          },
+        ],
       },
     ],
   },
@@ -166,66 +229,6 @@ const en = {
       },
     ],
   },
-  projects: {
-    h2: "Recent work",
-    intro:
-      "A selection of recent projects across automation, AI, predictive modeling & data analytics.",
-    items: [
-      {
-        title: "AI-powered document workflow automation",
-        badge: "DELIVERED",
-        what: "Multi-agent system automating repetitive text-based operational tasks.",
-        scope:
-          "N8n (orchestration layer) and Python (multi-agent layer); RAG over local historical data; human-in-the-loop validation steps allowing the client to keep control.",
-        stack: "Python, N8n, Docker, Postgres / Qdrant, local or cloud LLMs.",
-        outcome:
-          "20–40h a month saved on operations, with full traceability and preserved confidentiality.",
-        whatLabel: "What",
-        scopeLabel: "Architecture",
-        outcomeLabel: "Outcome",
-      },
-      {
-        title: "Production-grade systematic trading infrastructure",
-        badge: "Production deployment",
-        what: "End-to-end research, backtesting and live execution engine.",
-        scope:
-          "Regime-switching strategy logic, walk-forward validation, custom parameter optimization, modular architecture, live execution pipeline.",
-        stack:
-          "Python, modular components (clarity and scalability), production deployment.",
-        outcome:
-          "Architecture meeting small/mid hedge fund and prop trading firm standards; live execution on demo/live accounts.",
-        whatLabel: "What",
-        scopeLabel: "Scope",
-        outcomeLabel: "Outcome",
-      },
-      {
-        title: "Predictive modeling & data analysis",
-        badge: "DELIVERED",
-        what: "Product quality prediction and decision-support analytics.",
-        scope:
-          "Data quality assessment, exploratory data analysis, predictive model.",
-        stack: "Python — numpy, pandas, matplotlib, scikit-learn.",
-        outcome:
-          "1.3% MSE on test set, allowing accurate quality rating and classification.",
-        whatLabel: "What",
-        scopeLabel: "Scope",
-        outcomeLabel: "Outcome",
-      },
-      {
-        title: "Automated equity & crypto screening engine",
-        badge: "Production deployment",
-        what: "Production-grade market screener for equity and crypto markets.",
-        scope:
-          "Automated data ingestion, multi-factor screening, signal generation, daily scheduled operation and reporting.",
-        stack: "Matlab, including standard libraries.",
-        outcome:
-          "Fully automated daily screening across a dozen international markets, replacing manual research workflow and capturing advanced custom criteria.",
-        whatLabel: "What",
-        scopeLabel: "Scope",
-        outcomeLabel: "Outcome",
-      },
-    ],
-  },
   about: {
     h2: "About",
     paragraphs: [
@@ -267,8 +270,8 @@ const fr: Dict = {
   nav: {
     approach: "Approche",
     services: "Services",
-    work: "Réalisations",
     about: "À propos",
+    process: "Méthode",
     contact: "Contact",
     bookCall: "Réserver",
   },
@@ -308,7 +311,39 @@ const fr: Dict = {
       "Quatre domaines d'expertise, des automatisations simples aux systèmes agentiques complets et infrastructures quantitatives.",
     timelineLabel: "Délai typique",
     bestForLabel: "Idéal pour",
+    recentProjectLabel: "Réalisation récente",
+    recentProjectsLabel: "Réalisations récentes",
     cards: [
+      {
+        title: "Systèmes agentiques IA autonomes",
+        subtitle:
+          "Workflows multi-agents avec RAG, LLMs et contrôle human-in-the-loop.",
+        items: [
+          "Architecture mono ou multi-agents, selon le contexte opérationnel",
+          "Génération augmentée par la récupération (RAG) sur vos données internes",
+          "SLMs locaux ou LLMs cloud, choisis en fonction des contraintes (hardware, coût, latence et confidentialité)",
+          "Étapes de validation human-in-the-loop pour le contrôle et la gestion du risque",
+          "Déploiement Docker pour la portabilité, en fonction du cas",
+        ],
+        timeline: "4 à 10 semaines",
+        bestFor:
+          "Entreprises qui veulent automatiser des tâches complexes à fort jugement, tout en gardant un filet humain.",
+        projects: [
+          {
+            title: "Automatisation de workflow documentaire propulsée par IA",
+            badge: "LIVRÉ",
+            what: "Système multi-agents automatisant des tâches opérationnelles répétitives basées sur des données textuelles.",
+            scope:
+              "N8n (couche d'orchestration) et Python (couche multi-agents); RAG sur les données historiques locales; étapes de validation human-in-the-loop permettant au client de garder le contrôle.",
+            stack: "Python, n8n, Docker, Postgres / Qdrant, LLMs locaux ou cloud.",
+            outcome:
+              "20 à 40h par mois économisées sur les opérations, avec traçabilité complète et confidentialité préservée.",
+            whatLabel: "Quoi",
+            scopeLabel: "Architecture",
+            outcomeLabel: "Résultat",
+          },
+        ],
+      },
       {
         title: "Automatisation de workflows",
         subtitle:
@@ -322,35 +357,21 @@ const fr: Dict = {
         timeline: "2 à 6 semaines",
         bestFor:
           "Équipes qui perdent des heures chaque semaine sur des tâches opérationnelles répétitives.",
-      },
-      {
-        title: "Systèmes agentiques IA autonomes",
-        subtitle:
-          "Workflows multi-agents avec RAG, LLMs et contrôle human-in-the-loop.",
-        items: [
-          "Architecture mono ou multi-agents, selon le contexte opérationnel",
-          "Génération augmentée par la récupération (RAG) sur vos données internes",
-          "SLMs locaux ou LLMs cloud, choisis en fonction des contraintes (hardware, coût, latence et confidentialité)",
-          "Étapes de validation human-in-the-loop pour le contrôle et la gestion du risque",
-          "Déploiement Docker pour la portabilité, en fontion du cas",
+        projects: [
+          {
+            title: "Moteur de screening actions & crypto automatisé",
+            badge: "Déploiement production",
+            what: "Screener de marché qualité production pour actions et crypto.",
+            scope:
+              "Ingestion automatisée des données, screening multi-facteurs, génération de signaux, exécution et reporting quotidiens planifiés.",
+            stack: "Matlab, avec ses bibliothèques standard.",
+            outcome:
+              "Screening quotidien entièrement automatisé sur une douzaine de marchés internationaux, remplaçant un workflow manuel et capturant des critères avancés sur mesure.",
+            whatLabel: "Quoi",
+            scopeLabel: "Périmètre",
+            outcomeLabel: "Résultat",
+          },
         ],
-        timeline: "4 à 10 semaines",
-        bestFor:
-          "Entreprises qui veulent automatiser des tâches complexes à fort jugement, tout en gardant un filet humain.",
-      },
-      {
-        title: "Modélisation prédictive et analyse de données",
-        subtitle:
-          "Systèmes prédictifs et analytics d'aide à la décision.",
-        items: [
-          "Modèles prédictifs et analyses de scénarios",
-          "Analyse de données, évaluation et remédiation de la qualité",
-          "Tableaux de bord et visualisations orientés business",
-          "Modèles construits pour être compris, pas seulement déployés",
-        ],
-        timeline: "2 à 8 semaines",
-        bestFor:
-          "Entreprises qui ont la donnée mais pas la couche analytique pour en tirer parti.",
       },
       {
         title: "Systèmes de trading systématique",
@@ -365,6 +386,51 @@ const fr: Dict = {
         timeline: "4 à 12 semaines",
         bestFor:
           "Desks de prop trading et hedge funds qui construisent ou mettent à jour leurs capacités systématiques.",
+        projects: [
+          {
+            title: "Infrastructure de trading systématique en production",
+            badge: "Déploiement production",
+            what: "Moteur complet de recherche, backtesting et exécution live.",
+            scope:
+              "Logique de stratégie regime-switching, validation walk-forward, optimisation paramétrique sur mesure, architecture modulaire, pipeline d'exécution live.",
+            stack:
+              "Python, composants modulaires (clarté et scalabilité), déploiement production.",
+            outcome:
+              "Architecture aux standards small/mid hedge funds et prop trading ; exécution live sur comptes démo et live.",
+            whatLabel: "Quoi",
+            scopeLabel: "Périmètre",
+            outcomeLabel: "Résultat",
+          },
+        ],
+      },
+      {
+        title: "Modélisation prédictive et analyse de données",
+        subtitle:
+          "Systèmes prédictifs et analytics d'aide à la décision.",
+        items: [
+          "Modèles prédictifs et analyses de scénarios",
+          "Analyse de données, évaluation et remédiation de la qualité",
+          "Tableaux de bord et visualisations orientés business",
+          "Modèles construits pour être compris, pas seulement déployés",
+        ],
+        timeline: "2 à 8 semaines",
+        bestFor:
+          "Entreprises qui ont la donnée mais pas la couche analytique pour en tirer parti.",
+        projects: [
+          {
+            title: "Modélisation prédictive et analyse de données",
+            badge: "LIVRÉ",
+            what: "Prédiction de qualité produit et analytics d'aide à la décision.",
+            scope:
+              "Évaluation de la qualité des données, analyse exploratoire, modèle prédictif.",
+            stack: "Python — numpy, pandas, matplotlib, scikit-learn.",
+            outcome:
+              "1,3 % de MSE sur le test set, permettant un classement et une notation précise de la qualité.",
+            whatLabel: "Quoi",
+            scopeLabel: "Périmètre",
+            outcomeLabel: "Résultat",
+          },
+        ],
       },
     ],
   },
@@ -421,66 +487,6 @@ const fr: Dict = {
         outcomeLabel: "Résultat",
         outcome:
           "un système documenté, prêt pour la production, dont vous êtes pleinement propriétaire.",
-      },
-    ],
-  },
-  projects: {
-    h2: "Réalisations récentes",
-    intro:
-      "Une sélection de projets récents en automatisation, IA, modélisation prédictive & analyse de données.",
-    items: [
-      {
-        title: "Automatisation de workflow documentaire propulsée par IA",
-        badge: "LIVRÉ",
-        what: "Système multi-agents automatisant des tâches opérationnelles répétitives basées sur des données textuelles.",
-        scope:
-          "N8n (couche d'orchestration) et Python (couche multi-agents); RAG sur les données historiques locales; étapes de validation human-in-the-loop permettant au client de garder le contrôle.",
-        stack: "Python, n8n, Docker, Postgres / Qdrant, LLMs locaux ou cloud.",
-        outcome:
-          "20 à 40h par mois économisées sur les opérations, avec traçabilité complète et confidentialité préservée.",
-        whatLabel: "Quoi",
-        scopeLabel: "Architecture",
-        outcomeLabel: "Résultat",
-      },
-      {
-        title: "Infrastructure de trading systématique en production",
-        badge: "Déploiement production",
-        what: "Moteur complet de recherche, backtesting et exécution live.",
-        scope:
-          "Logique de stratégie regime-switching, validation walk-forward, optimisation paramétrique sur mesure, architecture modulaire, pipeline d'exécution live.",
-        stack:
-          "Python, composants modulaires (clarté et scalabilité), déploiement production.",
-        outcome:
-          "Architecture aux standards small/mid hedge funds et prop trading ; exécution live sur comptes démo et live.",
-        whatLabel: "Quoi",
-        scopeLabel: "Périmètre",
-        outcomeLabel: "Résultat",
-      },
-      {
-        title: "Modélisation prédictive et analyse de données",
-        badge: "LIVRÉ",
-        what: "Prédiction de qualité produit et analytics d'aide à la décision.",
-        scope:
-          "Évaluation de la qualité des données, analyse exploratoire, modèle prédictif.",
-        stack: "Python — numpy, pandas, matplotlib, scikit-learn.",
-        outcome:
-          "1,3 % de MSE sur le test set, permettant un classement et une notation précise de la qualité.",
-        whatLabel: "Quoi",
-        scopeLabel: "Périmètre",
-        outcomeLabel: "Résultat",
-      },
-      {
-        title: "Moteur de screening actions & crypto automatisé",
-        badge: "Déploiement production",
-        what: "Screener de marché qualité production pour actions et crypto.",
-        scope:
-          "Ingestion automatisée des données, screening multi-facteurs, génération de signaux, exécution et reporting quotidiens planifiés.",
-        stack: "Matlab, avec ses bibliothèques standard.",
-        outcome:
-          "Screening quotidien entièrement automatisé sur une douzaine de marchés internationaux, remplaçant un workflow manuel et capturant des critères avancés sur mesure.",
-        whatLabel: "Quoi",
-        scopeLabel: "Périmètre",
-        outcomeLabel: "Résultat",
       },
     ],
   },
