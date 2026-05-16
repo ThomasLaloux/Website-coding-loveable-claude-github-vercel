@@ -16,10 +16,10 @@ const Projects = () => {
           {t.projects.items.map((p) => (
             <div
               key={p.title}
-              className="border border-border rounded-xl overflow-hidden bg-card hover:border-cta/30 transition-colors flex flex-col"
+              className="border border-border rounded-xl bg-card hover:border-cta/30 transition-colors grid grid-rows-[1fr_auto]"
               style={{ borderTop: "2px solid hsl(var(--accent))" }}
             >
-              <div className="p-6 md:p-8 space-y-4 flex flex-col flex-1">
+              <div className="p-6 md:p-8 pb-0 space-y-4">
                 <div className="flex items-start justify-between gap-3">
                   <h3 className="font-serif text-lg text-foreground leading-tight">
                     {p.title}
@@ -54,8 +54,10 @@ const Projects = () => {
                     </span>
                   </div>
                 </div>
+              </div>
 
-                <div className="border-t border-border pt-4 mt-auto">
+              <div className="px-6 md:px-8 pb-6 md:pb-8 pt-4">
+                <div className="border-t border-border pt-4">
                   <p className="text-sm text-foreground/85">
                     <span className="font-medium text-foreground">
                       {p.outcomeLabel}:{" "}
