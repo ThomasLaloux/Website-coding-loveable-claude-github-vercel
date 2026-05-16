@@ -16,8 +16,8 @@ CookieConsent.run({
         translations: {
             en: {
                 consentModal: {
-                    title: 'We use cookies',
-                    description: 'We use cookies to analyze site traffic and improve performance.',
+                    title: 'This website uses cookies',
+                    description: 'Cookies are used to analyze site traffic and improve performance.',
                     acceptAllBtn: 'Accept all',
                     acceptNecessaryBtn: 'Reject all',
                     showPreferencesBtn: 'Manage preferences'
@@ -34,8 +34,8 @@ CookieConsent.run({
                 },
             fr: {
                   consentModal: {
-                    title: 'Nous utilisons des cookies',
-                    description: 'Nous utilisons des cookies pour analyser le trafic et améliorer les performances.',
+                    title: 'Ce site utilise des cookies',
+                    description: 'Ces cookies sont utilisés pour analyser le trafic et améliorer les performances.',
                     acceptAllBtn: 'Tout accepter',
                     acceptNecessaryBtn: 'Tout refuser',
                     showPreferencesBtn: 'Gérer les préférences'
