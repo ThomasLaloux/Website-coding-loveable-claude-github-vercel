@@ -296,7 +296,7 @@ const fr: Dict = {
         body: "Chaque système que je construis part de votre contexte, vos objectifs et vos contraintes. La réalité opérationnelle d'abord, la technologie ensuite.",
       },
       {
-        title: "Exécution sur mesure et pragmatique",
+        title: "Exécution sur mesure & pragmatique",
         body: "Je privilégie l'utilité et la vitesse à la complexité inutile. Des systèmes qui fonctionnent en conditions réelles — ni prototypes, ni plateformes sur-conçues.",
       },
       {
