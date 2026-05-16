@@ -22,7 +22,7 @@ const Services = () => {
             return (
               <div
                 key={s.title}
-                className="group border border-border rounded-xl p-6 md:p-8 hover:border-cta/40 transition-colors bg-card"
+                className="group border border-border rounded-xl p-6 md:p-8 hover:border-cta/40 transition-colors bg-card flex flex-col"
                 style={{ borderTop: "2px solid hsl(var(--accent))" }}
               >
                 <div className="flex items-start gap-4 mb-4">
@@ -51,7 +51,7 @@ const Services = () => {
                   ))}
                 </ul>
 
-                <div className="flex flex-wrap gap-x-6 gap-y-2 text-xs text-text-secondary border-t border-border pt-4">
+                <div className="flex flex-wrap gap-x-6 gap-y-2 text-xs text-text-secondary border-t border-border pt-4 mt-auto">
                   <span>
                     <span className="font-medium text-foreground">
                       {t.services.timelineLabel}:
