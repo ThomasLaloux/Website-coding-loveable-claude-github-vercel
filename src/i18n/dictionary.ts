@@ -174,9 +174,9 @@ const en = {
       {
         title: "AI-powered document workflow automation",
         badge: "DELIVERED",
-        what: "Multi-agent system automating repetitive data-based operational tasks while preserving data confidentiality.",
+        what: "Multi-agent system automating repetitive text-based operational tasks.",
         scope:
-          "N8n used as orchestration layer and Python as multi-agent layer; RAG over local historical data; human-in-the-loop validation steps allowing the client to keep control.",
+          "N8n (orchestration layer) and Python (multi-agent layer); RAG over local historical data; human-in-the-loop validation steps allowing the client to keep control.",
         stack: "Python, N8n, Docker, Postgres / Qdrant, local or cloud LLMs.",
         outcome:
           "20–40h a month saved on operations, with full traceability and preserved confidentiality.",
@@ -432,9 +432,9 @@ const fr: Dict = {
       {
         title: "Automatisation de workflow documentaire propulsée par IA",
         badge: "LIVRÉ",
-        what: "Système multi-agents automatisant des tâches opérationnelles répétitives basées sur la donnée, tout en préservant la confidentialité.",
+        what: "Système multi-agents automatisant des tâches opérationnelles répétitives basées sur des données textuelles.",
         scope:
-          "N8n comme couche d'orchestration et Python comme couche multi-agents ; RAG sur les données historiques locales ; étapes de validation human-in-the-loop permettant au client de garder le contrôle.",
+          "N8n (couche d'orchestration) et Python (couche multi-agents); RAG sur les données historiques locales; étapes de validation human-in-the-loop permettant au client de garder le contrôle.",
         stack: "Python, n8n, Docker, Postgres / Qdrant, LLMs locaux ou cloud.",
         outcome:
           "20 à 40h par mois économisées sur les opérations, avec traçabilité complète et confidentialité préservée.",
