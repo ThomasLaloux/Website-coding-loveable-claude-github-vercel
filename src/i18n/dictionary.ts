@@ -17,7 +17,7 @@ const en = {
     bookCall: "Book a call",
   },
   hero: {
-    h1Line1: "AI And Workflow Automation",
+    h1Line1: "AI & Workflow Automation",
     h1Line2: "for Growing Companies",
     sub: "I help startups, scale-ups and growing companies leverage workflow automation, AI systems and data, to reduce operational friction, improve decision-making, and support scalable growth.",
     support:
@@ -273,7 +273,7 @@ const fr: Dict = {
     bookCall: "Réserver",
   },
   hero: {
-    h1Line1: "Automatisation IA et de workflows",
+    h1Line1: "Automatisation IA & de workflows",
     h1Line2: "pour entreprises en croissance",
     sub: "J'aide les startups, scale-ups et entreprises en croissance à tirer parti de l'automatisation, des systèmes d'IA et de la donnée — pour réduire la friction opérationnelle, améliorer la prise de décision et soutenir une croissance maîtrisée.",
     support:
