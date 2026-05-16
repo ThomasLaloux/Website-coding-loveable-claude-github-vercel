@@ -7,7 +7,6 @@ import Approach from "@/components/Approach";
 import Services from "@/components/Services";
 import About from "@/components/About";
 import Process from "@/components/Process";
-import Positioning from "@/components/Positioning";
 import Booking from "@/components/Booking";
 import Footer from "@/components/Footer";
 import MobileStickyCTA from "@/components/MobileStickyCTA";
@@ -86,7 +85,6 @@ const Index = () => {
       <Services />
       <About />
       <Process />
-      <Positioning />
       <Booking />
       <Footer />
       <MobileStickyCTA />
