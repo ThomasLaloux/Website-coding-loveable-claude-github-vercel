@@ -16,10 +16,10 @@ const Projects = () => {
           {t.projects.items.map((p) => (
             <div
               key={p.title}
-              className="border border-border rounded-xl overflow-hidden bg-card hover:border-cta/30 transition-colors"
+              className="border border-border rounded-xl overflow-hidden bg-card hover:border-cta/30 transition-colors flex flex-col"
               style={{ borderTop: "2px solid hsl(var(--accent))" }}
             >
-              <div className="p-6 md:p-8 space-y-4 flex flex-col h-full">
+              <div className="p-6 md:p-8 space-y-4 flex flex-col flex-1">
                 <div className="flex items-start justify-between gap-3">
                   <h3 className="font-serif text-lg text-foreground leading-tight">
                     {p.title}
