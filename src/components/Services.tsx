@@ -13,7 +13,7 @@ const Services = () => {
   };
 
   return (
-    <section id="services" className="py-20 md:py-28 bg-background">
+    <section id="services" className="py-20 md:py-28 bg-card">
       <div className="container max-w-[1200px] mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-serif text-foreground mb-4">
           {t.services.h2}
