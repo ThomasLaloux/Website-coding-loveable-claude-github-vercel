@@ -238,11 +238,11 @@ const en = {
       "His current focus is AI-powered workflow automation and agentic systems — combining multi-agent architectures, RAG, local and cloud LLMs, and human-in-the-loop control to solve operational and scaling challenges faced by startups, scale-ups, and financial firms.",
       "Across his project portfolio, Thomas has consistently demonstrated his ability to autonomously architect, build and deliver end-to-end systems, applying an AI-native approach to execution, iteration and problem solving.",
     ],
-    location: "Based in Belgium. Available remotely across Europe and internationally",
+    location: "Based in Belgium. Available remotely across Europe and internationally.",
   },
   positioning: {
     items: [
-      { label: "Location", value: "Belgium — remote across Europe & internationally"},
+      { label: "Location", value: "Belgium — remote across EU & internationally"},
       { label: "Availability", value: "Accepting new projects" },
       { label: "Typical engagement", value: "3–12 weeks" },
       {
@@ -260,7 +260,7 @@ const en = {
   footer: {
     tagline:
       "Workflow automation, AI agentic systems, predictive modeling, systematic trading",
-    location: "Belgium — remote across Europe & internationally",
+    location: "Belgium — remote across EU & internationally",
     rights: "All rights reserved.",
   },
   mobileCta: "Book a discovery call",
@@ -503,7 +503,7 @@ const fr: Dict = {
   },
   positioning: {
     items: [
-      { label: "Localisation", value: "Belgique - distanciel Europe et international" },
+      { label: "Localisation", value: "Belgique - distanciel UE et international" },
       { label: "Disponibilité", value: "Nouveaux projets acceptés" },
       { label: "Engagement typique", value: "3 à 12 semaines" },
       {
@@ -521,7 +521,7 @@ const fr: Dict = {
   footer: {
     tagline:
       "Automatisation de workflows, systèmes agentiques IA, modélisation prédictive, trading systématique",
-    location: "Belgique — distanciel en Europe et à l'international",
+    location: "Belgique — distanciel UE et international",
     rights: "Tous droits réservés.",
   },
   mobileCta: "Réserver un appel",
