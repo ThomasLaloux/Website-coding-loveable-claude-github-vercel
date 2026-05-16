@@ -14,8 +14,8 @@ const Navbar = () => {
   const items = [
     { label: t.nav.approach, href: "#approach" },
     { label: t.nav.services, href: "#services" },
-    { label: t.nav.work, href: "#projects" },
     { label: t.nav.about, href: "#about" },
+    { label: t.nav.process, href: "#process" },
     { label: t.nav.contact, href: "#contact" },
   ];
 
