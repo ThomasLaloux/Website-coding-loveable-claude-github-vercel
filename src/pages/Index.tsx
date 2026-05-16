@@ -5,7 +5,6 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Approach from "@/components/Approach";
 import Services from "@/components/Services";
-import Projects from "@/components/Projects";
 import About from "@/components/About";
 import Process from "@/components/Process";
 import Positioning from "@/components/Positioning";
@@ -39,7 +38,7 @@ const Index = () => {
     alternateName: "Thomas Laloux",
     jobTitle:
       "Business-Driven Automation Architect | AI Workflows & Predictive Systems Builder",
-    sameAs: [LINKEDIN_URL, "/"],
+    sameAs: [LINKEDIN_URL, "https://www.tpl-consulting.com"],
     address: {
       "@type": "PostalAddress",
       addressCountry: "BE",
@@ -66,14 +65,14 @@ const Index = () => {
         <html lang={lang} />
         <title>{meta.title}</title>
         <meta name="description" content={meta.description} />
-        <link rel="canonical" href={`/${lang}`} />
-        <link rel="alternate" hrefLang="en" href="/en" />
-        <link rel="alternate" hrefLang="fr" href="/fr" />
-        <link rel="alternate" hrefLang="x-default" href="/en" />
+        <link rel="canonical" href={`https://www.tpl-consulting.com/${lang}`} />
+        <link rel="alternate" hrefLang="en" href="https://www.tpl-consulting.com/en" />
+        <link rel="alternate" hrefLang="fr" href="https://www.tpl-consulting.com/fr" />
+        <link rel="alternate" hrefLang="x-default" href="https://www.tpl-consulting.com/en" />
         <meta property="og:title" content={meta.title} />
         <meta property="og:description" content={meta.description} />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content={`/${lang}`} />
+        <meta property="og:url" content={`https://www.tpl-consulting.com/${lang}`} />
         <meta property="og:locale" content={lang === "fr" ? "fr_FR" : "en_US"} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={meta.title} />
@@ -85,9 +84,8 @@ const Index = () => {
       <Hero />
       <Approach />
       <Services />
-      <Process />
-      <Projects />
       <About />
+      <Process />
       <Positioning />
       <Booking />
       <Footer />
