@@ -19,7 +19,7 @@ const Projects = () => {
               className="border border-border rounded-xl overflow-hidden bg-card hover:border-cta/30 transition-colors"
               style={{ borderTop: "2px solid hsl(var(--accent))" }}
             >
-              <div className="p-6 md:p-8 space-y-4">
+              <div className="p-6 md:p-8 space-y-4 flex flex-col h-full">
                 <div className="flex items-start justify-between gap-3">
                   <h3 className="font-serif text-lg text-foreground leading-tight">
                     {p.title}
@@ -55,7 +55,7 @@ const Projects = () => {
                   </div>
                 </div>
 
-                <div className="border-t border-border pt-4">
+                <div className="border-t border-border pt-4 mt-auto">
                   <p className="text-sm text-foreground/85">
                     <span className="font-medium text-foreground">
                       {p.outcomeLabel}:{" "}
