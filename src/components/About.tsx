@@ -8,7 +8,7 @@ const About = () => {
         <h2 className="text-3xl md:text-4xl font-serif text-foreground mb-8">
           {t.about.h2}
         </h2>
-        <div className="max-w-3xl space-y-4 text-foreground/80 leading-relaxed">
+        <div className="max-w-[38rem] space-y-4 text-foreground/80 leading-relaxed">
           {t.about.paragraphs.map((p, i) => (
             <p key={i}>{p}</p>
           ))}
