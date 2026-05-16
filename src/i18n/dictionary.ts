@@ -273,7 +273,7 @@ const fr: Dict = {
     bookCall: "Réserver",
   },
   hero: {
-    h1Line1: "Automatisation IA et workflows",
+    h1Line1: "Automatisation IA et de workflows",
     h1Line2: "au service de votre croissance",
     sub: "J'aide les startups, scale-ups et entreprises en croissance à tirer parti de l'automatisation, des systèmes d'IA et de la donnée — pour réduire la friction opérationnelle, améliorer la prise de décision et soutenir une croissance maîtrisée.",
     support:
