@@ -22,7 +22,7 @@ const Hero = () => {
       <div className="container max-w-[1200px] mx-auto px-6 py-20 md:py-28">
         <div className="grid md:grid-cols-[1fr_auto] gap-12 md:gap-16 items-center">
           <div className="space-y-8 animate-fade-in-up">
-            <h1 className="text-5xl md:text-[4rem] lg:text-[4.5rem] font-serif text-hero-foreground leading-[1.1]">
+            <h1 className="text-4xl md:text-5xl lg:text-[3.25rem] font-serif text-hero-foreground leading-[1.1]">
               {t.hero.h1Line1}
               <br />
               <span className="text-hero-foreground/85">{t.hero.h1Line2}</span>
