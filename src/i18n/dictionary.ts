@@ -56,7 +56,7 @@ const en = {
       {
         title: "Workflow Automation",
         subtitle:
-          "Replace manual operational processes with reliable, scalable workflows.",
+          "Replace manual operational processes with reliable, scalable workflows not requiring IA.",
         items: [
           "Process mapping and bottleneck identification",
           "Orchestration, e.g. through n8n or custom Python",
@@ -73,7 +73,7 @@ const en = {
         items: [
           "Single/Multi-agent architecture, depending on the operational context",
           "Retrieval-augmented generation over your internal data",
-          "Local SLMs or cloud LLMs, chosen depending on hardware, cost, latency and confidentiality",
+          "Local SLMs or cloud LLMs, chosen depending on constraints (hardware, cost, latency and confidentiality)",
           "Human-in-the-loop validation steps for control and risk management",
           "Docker-based deployment for portability, depending on the case",
         ],
@@ -273,7 +273,7 @@ const fr: Dict = {
     bookCall: "Réserver",
   },
   hero: {
-    h1Line1: "Automatisation pragmatique IA et workflows",
+    h1Line1: "Automatisation IA et de workflows",
     h1Line2: "pour entreprises en croissance",
     sub: "J'aide les startups, scale-ups et entreprises en croissance à tirer parti de l'automatisation, des systèmes d'IA et de la donnée — pour réduire la friction opérationnelle, améliorer la prise de décision et soutenir une croissance maîtrisée.",
     support:
@@ -289,11 +289,11 @@ const fr: Dict = {
       "La plupart des projets d'IA et d'automatisation échouent parce qu'ils partent de la technologie, pas du business. Je fais l'inverse.",
     pillars: [
       {
-        title: "Partir du business",
+        title: "Contexte business",
         body: "Chaque système que je construis part de votre contexte, vos objectifs et vos contraintes. La réalité opérationnelle d'abord, la technologie ensuite.",
       },
       {
-        title: "Exécution pragmatique",
+        title: "Exécution personnalisée et pragmatique",
         body: "Je privilégie l'utilité et la vitesse à la complexité inutile. Des systèmes qui fonctionnent en conditions réelles — ni prototypes, ni plateformes sur-conçues.",
       },
       {
@@ -312,11 +312,11 @@ const fr: Dict = {
       {
         title: "Automatisation de workflows",
         subtitle:
-          "Remplacer les processus opérationnels manuels par des workflows fiables et scalables.",
+          "Remplacer les processus opérationnels manuels par des workflows fiables et scalables ne nécessitant pas d'IA.",
         items: [
-          "Cartographie des processus et identification des goulots",
+          "Cartographie des processus et identification des points de friction",
           "Orchestration, par ex. via n8n ou Python sur mesure",
-          "Intégration avec vos outils, API et sources de données existants",
+          "Intégration à vos outils, API et sources de données existants",
           "Monitoring, alerting et passation propre",
         ],
         timeline: "2 à 6 semaines",
@@ -329,10 +329,10 @@ const fr: Dict = {
           "Workflows multi-agents avec RAG, LLMs et contrôle human-in-the-loop.",
         items: [
           "Architecture mono ou multi-agents, selon le contexte opérationnel",
-          "Retrieval-augmented generation sur vos données internes",
-          "SLMs locaux ou LLMs cloud, choisis selon hardware, coût, latence et confidentialité",
+          "Génération augmentée par la récupération (RAG) sur vos données internes",
+          "SLMs locaux ou LLMs cloud, choisis en fonction des contraintes (hardware, coût, latence et confidentialité)",
           "Étapes de validation human-in-the-loop pour le contrôle et la gestion du risque",
-          "Déploiement Docker pour la portabilité, selon l'outil d'orchestration",
+          "Déploiement Docker pour la portabilité, en fontion du cas",
         ],
         timeline: "4 à 10 semaines",
         bestFor:
@@ -357,14 +357,14 @@ const fr: Dict = {
         subtitle:
           "Du backtest rapide au développement et à l'exécution en production.",
         items: [
-          "Développement de stratégies — par ex. mid-frequency, market structure, order flow, regime switching",
+          "Développement de stratégies — par ex. MFT, structure de marché, order flow, changement de regime",
           "Frameworks de backtesting walk-forward avec modélisation réaliste des coûts/slippage",
           "Gestion du risque et monitoring d'exécution",
-          "Déploiement en live — Python, qualité production",
+          "Déploiement en live/production — Python",
         ],
         timeline: "4 à 12 semaines",
         bestFor:
-          "Desks de prop trading et hedge funds qui construisent, modernisent ou formalisent leurs capacités systématiques.",
+          "Desks de prop trading et hedge funds qui construisent ou mettent à jour leurs capacités systématiques.",
       },
     ],
   },
