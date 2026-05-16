@@ -238,11 +238,11 @@ const en = {
       "His current focus is AI-powered workflow automation and agentic systems — combining multi-agent architectures, RAG, local and cloud LLMs, and human-in-the-loop control to solve operational and scaling challenges faced by startups, scale-ups, and financial firms.",
       "Across his project portfolio, Thomas has consistently demonstrated his ability to autonomously architect, build and deliver end-to-end systems, applying an AI-native approach to execution, iteration and problem solving.",
     ],
-    location: "Based in Belgium. Available remotely across Europe.",
+    location: "Based in Belgium. Available remotely across Europe and internationally",
   },
   positioning: {
     items: [
-      { label: "Location", value: "Belgium — remote across Europe" },
+      { label: "Location", value: "Belgium — remote across Europe & internationally"},
       { label: "Availability", value: "Accepting new projects" },
       { label: "Typical engagement", value: "3–12 weeks" },
       {
@@ -260,7 +260,7 @@ const en = {
   footer: {
     tagline:
       "Workflow automation, AI agentic systems, predictive modeling, systematic trading",
-    location: "Belgium — remote across Europe",
+    location: "Belgium — remote across Europe & internationally",
     rights: "All rights reserved.",
   },
   mobileCta: "Book a discovery call",
@@ -499,11 +499,11 @@ const fr: Dict = {
       "Son focus actuel porte sur l'automatisation de workflows propulsée par IA et les systèmes agentiques — combinant architectures multi-agents, RAG, LLMs locaux et cloud, et contrôle humain-dans-la-boucle pour résoudre les défis opérationnels et de scaling rencontrés par les startups, scale-ups et acteurs financiers.",
       "Sur l'ensemble de son portefeuille de projets, Thomas a constamment démontré sa capacité à architecturer, construire et livrer de manière autonome des systèmes de bout en bout, en appliquant une approche AI-native à l'exécution, à l'itération et à la résolution de problèmes.",
     ],
-    location: "Basé en Belgique. Disponible à distance partout en Europe.",
+    location: "Basé en Belgique. Disponible en distanciel en Europe et à l'international.",
   },
   positioning: {
     items: [
-      { label: "Localisation", value: "Belgique — remote dans toute l'Europe" },
+      { label: "Localisation", value: "Belgique - distanciel Europe et international" },
       { label: "Disponibilité", value: "Nouveaux projets acceptés" },
       { label: "Engagement typique", value: "3 à 12 semaines" },
       {
@@ -521,7 +521,7 @@ const fr: Dict = {
   footer: {
     tagline:
       "Automatisation de workflows, systèmes agentiques IA, modélisation prédictive, trading systématique",
-    location: "Belgique — remote dans toute l'Europe",
+    location: "Belgique — distanciel en Europe et à l'international",
     rights: "Tous droits réservés.",
   },
   mobileCta: "Réserver un appel",
