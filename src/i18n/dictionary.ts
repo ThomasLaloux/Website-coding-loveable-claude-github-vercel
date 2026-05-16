@@ -59,7 +59,7 @@ const en = {
           "Replace manual operational processes with reliable, scalable workflows not requiring IA.",
         items: [
           "Process mapping and bottleneck identification",
-          "Orchestration, e.g. through n8n or custom Python",
+          "Orchestration, e.g. through N8n or custom Python",
           "Integration with existing tools, APIs and data sources",
           "Monitoring, alerting, and clean handover",
         ],
@@ -176,8 +176,8 @@ const en = {
         badge: "DELIVERED",
         what: "Multi-agent system automating repetitive data-based operational tasks while preserving data confidentiality.",
         scope:
-          "n8n used as orchestration layer and Python as multi-agent layer; RAG over local historical data; human-in-the-loop validation steps allowing the client to keep control.",
-        stack: "Python, n8n, Docker, Postgres / Qdrant, local or cloud LLMs.",
+          "N8n used as orchestration layer and Python as multi-agent layer; RAG over local historical data; human-in-the-loop validation steps allowing the client to keep control.",
+        stack: "Python, N8n, Docker, Postgres / Qdrant, local or cloud LLMs.",
         outcome:
           "20–40h a month saved on operations, with full traceability and preserved confidentiality.",
         whatLabel: "What",
@@ -233,7 +233,7 @@ const en = {
       "With a strong analytical foundation in statistics and forecasting, he began his career at ENGIE (CAC40) as an energy consumption forecaster, where he also contributed to operational process optimization. He then moved into internal consulting roles at group level, as market and business analyst, working across long-term market projections, green mobility assessment models, business planning, and predictive modeling.",
       "He later transitioned into systematic trading as a quantitative developer, designing and deploying mid-frequency strategies, advanced backtesting frameworks, and live execution infrastructure built to the production standards expected by hedge funds and proprietary trading firms.",
       "His current focus is AI-powered workflow automation and agentic systems — combining multi-agent architectures, RAG, local and cloud LLMs, and human-in-the-loop control to solve operational and scaling challenges faced by startups, scale-ups, and financial firms.",
-      "Across his project portfolio, Thomas has consistently demonstrated the ability to autonomously architect, build and deliver end-to-end systems, applying an AI-native approach to execution, iteration and problem solving.",
+      "Across his project portfolio, Thomas has consistently demonstrated his ability to autonomously architect, build and deliver end-to-end systems, applying an AI-native approach to execution, iteration and problem solving.",
     ],
     location: "Based in Belgium. Available remotely across Europe.",
   },
@@ -315,7 +315,7 @@ const fr: Dict = {
           "Remplacer les processus opérationnels manuels par des workflows fiables et scalables ne nécessitant pas d'IA.",
         items: [
           "Cartographie des processus et identification des points de friction",
-          "Orchestration, par ex. via n8n ou Python sur mesure",
+          "Orchestration, par ex. via N8n ou Python sur mesure",
           "Intégration à vos outils, API et sources de données existants",
           "Monitoring, alerting et passation propre",
         ],
@@ -434,7 +434,7 @@ const fr: Dict = {
         badge: "LIVRÉ",
         what: "Système multi-agents automatisant des tâches opérationnelles répétitives basées sur la donnée, tout en préservant la confidentialité.",
         scope:
-          "n8n comme couche d'orchestration et Python comme couche multi-agents ; RAG sur les données historiques locales ; étapes de validation human-in-the-loop permettant au client de garder le contrôle.",
+          "N8n comme couche d'orchestration et Python comme couche multi-agents ; RAG sur les données historiques locales ; étapes de validation human-in-the-loop permettant au client de garder le contrôle.",
         stack: "Python, n8n, Docker, Postgres / Qdrant, LLMs locaux ou cloud.",
         outcome:
           "20 à 40h par mois économisées sur les opérations, avec traçabilité complète et confidentialité préservée.",
@@ -488,10 +488,10 @@ const fr: Dict = {
     h2: "À propos",
     paragraphs: [
       "Thomas P. Laloux est un architecte indépendant en automatisation, spécialisé dans l'automatisation de workflows, les systèmes d'IA et la donnée, avec une approche pragmatique orientée business.",
-      "Fort d'une solide base analytique en physique, statistiques et prévision, il a commencé sa carrière chez ENGIE (CAC40) comme prévisionniste de consommation énergétique, où il a également contribué à l'optimisation des processus opérationnels. Il est ensuite passé à un rôle de consultant interne et business analyst au niveau groupe, intervenant sur l'optimisation des processus opérationnels, l'analyse de coûts et de revenus, le business planning et la modélisation prédictive.",
-      "Il a ensuite rejoint le trading systématique comme développeur quantitatif, concevant et déployant des stratégies mid-frequency (market structure, order flow, regime switching), des frameworks de backtesting avancés et des infrastructures d'exécution live aux standards de production attendus par les hedge funds et les sociétés de prop trading.",
-      "Son focus actuel : l'automatisation de workflows propulsée par IA et les systèmes agentiques — combinant architectures multi-agents, RAG, LLMs locaux et cloud, et contrôle human-in-the-loop pour résoudre les défis opérationnels et de scaling rencontrés par les startups, scale-ups et acteurs financiers.",
-      "Sur l'ensemble de son portefeuille de projets, Thomas a démontré sa capacité à architecturer, construire et livrer de manière autonome des systèmes de bout en bout, en appliquant une approche AI-native à l'exécution, à l'itération et à la résolution de problèmes.",
+      "Fort d'une solide base analytique en physique, statistiques et prévision, il a commencé sa carrière chez ENGIE (CAC40) comme prévisionniste en consommation énergétique, où il a également contribué à l'optimisation des processus opérationnels. Il a ensuite évolué vers des rôle de consultance interne au niveau du groupe en tant qu'analyste de marché et analyste business, en travaillant sur les projections de marché à long terme, des modèles d'évaluation de mobilité durable, le business planning et des modèles prédictifs.",
+      "Il a ensuite rejoint le trading systématique comme développeur quantitatif, concevant et déployant des stratégies à moyenne fréquence (structure de marché, order flow, changement de régime), des frameworks de backtesting avancés et des infrastructures d'exécution live satisfaisant les standards attendus des hedge funds et sociétés de prop trading.",
+      "Son focus actuel porte sur l'automatisation de workflows propulsée par IA et les systèmes agentiques — combinant architectures multi-agents, RAG, LLMs locaux et cloud, et contrôle humain-dans-la-boucle pour résoudre les défis opérationnels et de scaling rencontrés par les startups, scale-ups et acteurs financiers.",
+      "Sur l'ensemble de son portefeuille de projets, Thomas a constamment démontré sa capacité à architecturer, construire et livrer de manière autonome des systèmes de bout en bout, en appliquant une approche AI-native à l'exécution, à l'itération et à la résolution de problèmes.",
     ],
     location: "Basé en Belgique. Disponible à distance partout en Europe.",
   },
