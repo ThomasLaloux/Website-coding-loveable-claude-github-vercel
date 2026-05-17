@@ -238,11 +238,11 @@ const en = {
       "His current focus is AI-powered workflow automation and agentic systems — combining multi-agent architectures, RAG, local and cloud LLMs, and human-in-the-loop control to solve operational and scaling challenges faced by startups, scale-ups, and financial firms.",
       "Across his project portfolio, Thomas has consistently demonstrated his ability to autonomously architect, build and deliver end-to-end systems, applying an AI-native approach to execution, iteration and problem solving.",
     ],
-    location: "Based in Belgium. Available remotely across Europe and internationally.",
+    location: "Based in Belgium. Available remotely across Europe and globally.",
   },
   positioning: {
     items: [
-      { label: "Location", value: "Belgium — remote across EU & internationally"},
+      { label: "Location", value: "Belgium — remote across EU & globally"},
       { label: "Availability", value: "Accepting new projects" },
       { label: "Typical engagement", value: "3–12 weeks" },
       {
@@ -260,7 +260,7 @@ const en = {
   footer: {
     tagline:
       "Workflow automation, AI agentic systems, predictive modeling, systematic trading",
-    location: "Belgium — remote across EU & internationally",
+    location: "Belgium — remote across EU & globally",
     rights: "All rights reserved.",
   },
   mobileCta: "Book a discovery call",
