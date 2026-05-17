@@ -297,7 +297,7 @@ const fr: Dict = {
       },
       {
         title: "Exécution sur mesure",
-        body: "Je privilégie des solutions sur mesures ajustées aux besoins du client, et le pragmatisme à la complexité inutile. Des systèmes qui fonctionnent en conditions réelles, ni prototypes, ni plateformes sur-conçues.",
+        body: "Je privilégie des solutions sur mesures ajustées aux besoins, et le pragmatisme à la complexité inutile. Des systèmes qui fonctionnent en conditions réelles, ni prototypes, ni plateformes sur-conçues.",
       },
       {
         title: "Livraison autonome",
