@@ -37,8 +37,8 @@ const en = {
         body: "Every system I build starts from your context, objectives and constraints. Operational reality first, technology second.",
       },
       {
-        title: "Custom & pragmatic execution",
-        body: "I prioritize pragmatism over unnecessary complexity. Working systems in real conditions — not prototypes or over-engineered platforms.",
+        title: "Custom execution",
+        body: "I prioritize customization according to clients needs, and pragmatism over unnecessary complexity. Working systems in real conditions, not prototypes or over-engineered platforms.",
       },
       {
         title: "Autonomous delivery",
@@ -296,8 +296,8 @@ const fr: Dict = {
         body: "Chaque système que je construis part de votre contexte, vos objectifs et vos contraintes. La réalité opérationnelle d'abord, la technologie ensuite.",
       },
       {
-        title: "Exécution sur mesure & pragmatique",
-        body: "Je privilégie l'utilité et la vitesse à la complexité inutile. Des systèmes qui fonctionnent en conditions réelles — ni prototypes, ni plateformes sur-conçues.",
+        title: "Exécution sur mesure",
+        body: "Je privilégie des solutions sur mesures ajustées aux besoins du client, et le pragmatisme à la complexité inutile. Des systèmes qui fonctionnent en conditions réelles, ni prototypes, ni plateformes sur-conçues.",
       },
       {
         title: "Livraison autonome",
