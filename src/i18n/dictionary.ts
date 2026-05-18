@@ -144,7 +144,7 @@ const en = {
         ],
       },
       {
-        title: "Data Analysis and Predictive Modeling",
+        title: "Predictive Modeling and Data Analysis",
         subtitle: "Predictive systems and decision-support analytics.",
         items: [
           "Predictive models and scenario analysis",
@@ -404,7 +404,7 @@ const fr: Dict = {
         ],
       },
       {
-        title: "Analyse de données et modélisation prédictive",
+        title: "Modélisation prédictive et analyse de données",
         subtitle:
           "Analytics d'aide à la décision et systèmes prédictifs.",
         items: [
